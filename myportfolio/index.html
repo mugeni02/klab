@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--header-->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1><span>M</span>UGENI <span>R</span>aissa</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services"data-after="Service">Service</a></li>
+                        <li><a href="#projects"data-after="Projects">Projects</a></li>
+                        <li><a href="#experience"data-after="Experience">Experience</a></li>
+                        <li><a href="#about"data-after="About">About</a></li>
+                        <li><a href="#contact"data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--end header-->
+    <!--hero sectoion--> 
+    <section id="hero">
+        <div class="slider">
+            <div class="load"></div>
+      <div class="hero container">
+        <div>
+            <h1>Hello, <span></span></h1>
+            <h1>My Name is <span></span></h1>
+            <h1>Raissa <span></span></h1>
+
+            <a href="Raissa.pdf" type="button" class="cta" download target="_blank">  Portfolio</a>
+        </div>
+    </div>
+      </div>
+    </section>
+    <!--end hero sectoion--> 
+
+   <!--service section--> 
+
+   <section id="services">
+    <div class="services container">
+        <div class="service-top">
+            <h1 class="section-title">Serv <span>i</span>ces</h1>
+            <p>Basing on my skills and experiences i had
+                during my intership and school time,
+                that i'm certain of , i offer these services
+               </p>
+        </div>
+        <div class="service-bottom">
+            <div class="service-item">
+                <div class="icon">
+<img src="data:image/png;base64,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">                </div>
+                 <h2>UI/UX Design</h2>
+                 <p>User interface engineering is the design of user interfaces for machines and software</p>
+            </div>
+
+            <div class="service-item">
+                <div class="icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFDklEQVR4nO2Z31MTVxTHY237B7QvQN+rPhWcvrTT/gOVavtgCbad4a21ghUc+8uxdahCgjAtUAYFgyOOIWZEJDOMpEvVShXFBKgBFSoSc3eRUiAJFri7EU7nbCY0bDa/NjfoQ87Mmexs9t67n3zPPffeE50uYxnLWMaeB/P2ZG/1c1llXi4nb10HBoAXBIFu9njoh4KwVEwI/Rodr4P36GZ8Jl4/Pi67CyF8XHbA35MNPi5b8tpzctP68g4HvCQIdAfPi1ZC6AzPixDL8RlC6Dmep9uxbbR+/T1Z+xFi1bmssrQADA/Dyx7PUgkhoifey0eHEh+hWmpAXi4nD5UIKTL322tvMIcQBOldQsS7WgFUgEYEQXonAsaek+vnskqZQwDABp6nBwmhT1lBhIVcgBD6LY7B9KVVIDYSQk+yBoh02oxjhY9tNHbnGwx2v8FwaRsLJZrTDyGGYFrDlUEABKkw/vpeSiAYTsrBHo77of1MB5z8qRFMP2tzbNt+5iKMP/Cphdo3OvYTe+2cuNnrggNFRWBrOwVDty7DqKsPRgZ64f6dG3D/z+twd7BXvhfPsU2nuQX26vXQd80VMWd4XnqbWYpVZidUAiHmvR5YWpiC9h0F4OiwQlfDTrh87hCcPv0D1DXsgZVlb8KOfR0oKoKJh/6IbBZrrUnYcJ1QSo7hhEqEXqL/vBnmZ91w7/ZFECb6YXzsFgwNcEmBoNvMLXDhbOfqOJK0ArOzAeB56YuUIPCXUFvsGiqrob78IFia6zT5wrwA/de65Wv89M1MyNcDN3qgqbp+dRyEePxYQlXcKakiCPQDtYxyvKpWju94v7Bv1p2UIqOuPrnvKFksXzNIcD+kHaT1l2r583xLFVhOlMf0e4NXYoIQQs2aIHCHSgj9JxbIEz9RDZ15H1kD0lpbDCuL1pjeWn8oHshMIrvmCJucpFuiLVbJKsIChA+G16akQfDsEA8EFTHVVER4OhThgyDbmaTdZ6/I0p6kQQih32Hj6WkJvN6nIAjaQcqLC+DBUANcv3QUfreVg6VxX4S3HT8aFwR3xppBlpdBNoTROtnZpF9RGwie2rDx4uKyDIPKaFVE6W0njoHpWMkax3uj6QgtVpNd+Qx+11p/RGWOHEnPZGeZfiPuawfZlDSI5Pz0zbnRC/9OTYw9FyCEiH8nfQQWHR9tlZyFgYCzECTnJzDl/kvzyq58RmtoES1bFMmh348QIZ8bs2lS5A+uU/X+sPMKmKq/X+N4bzQ2SPJndbFfnyc59VJQkY9XlIrgVhtPdsmk1kR8ZKB3zTY+LKzcAPBi0iAyzOCuXMmpL50Zv1qp7NhissLhks9Xw+Xm1S5YeDKp+XwS8sPFn4HllFVFEWm3LlXDX4Ln6Z3wjrFQsFdfIB9PWanhn3sEX+oL5WO0IlMNMznqomEFMFgI+H8ALBTIxYezJjkkEik0RCs+YB8I0adefHhLx9Jwe6CUHAsFeMZuNNZC3Y9VmhzbdphtKkqIIAj0Kx1rewYFuqaAY1e+5NT7Aw79NtYwG9cHhjbhWAggg9wuTK26GAVmA1YAlXOGhRNCA2kJp1iGFUDMKAxVcDGf2IkapkUsnuGCpV0FbCvtZpZiE7GKCu7VSqO9tKam+5VIIPo+IbSNEDqdQAhN494Ja1WaV+xUzGCwlxmMdkCYONnt9eB/iqhW8M9QvMbzBH6X9j9y4hkqYTB071MqkrGMZSxjuvWy/wBjnz0YEvj3agAAAABJRU5ErkJggg==">        
+                        </div>
+                 <h2>Web Design</h2>
+                 <p>web design include web graphic design; user interface design; authoring, and standardised code  </p>
+
+            </div>
+
+            <div class="service-item">
+                <div class="icon">
+<img src="data:image/png;base64,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">                </div>
+                 <h2>database Design</h2>
+                 <p> Provides Access with the information it requires to join the information in the tables together </p>
+
+            </div>
+
+            <div class="service-item">
+                <div class="icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFPklEQVR4nO2Z709bZRTHq1P/AH0D+N4fr4TFNxqNifGNG7Iti6YwSYYww/ihg7nRwtQNkg3isiwRx6BjbQfjR3EyxmApZTpxuCi9txUQRjLovUVlTuXS3qcktLBjzp0tpb/ovX1KfNGTfHN/9j73c89zzvM8pypVylKWspT9H0wYTt/usqRVCpaMrC1tGAAetzrcL1gdnj0MJ5YxPKmSxIlleA6v4T2bPWfJkj6AEEuWdJ9rOB2WLOlewZyRmdSXt1rhSZb37GJ4YmI58jfLE4gpvIcj3QzvycHfRnuuazjtMEIEZEmrTArA5CQ8xXBiOcuJzk1fPqpEXvJWBCDBkpGFnvB7ZPHmsy9Rh7Dy7tdZnkwpB9gohie/Wnn3a2Ew5oxMlyWtgjoEADzG8KSG5cRVWhDrXU70sTzRYhuqZJoJYBvDixeoA4R5R9RhW8Fta4z27Cq9zVWlt+2k4AlRl2wIdj12LgV7BgEQRHOR3RH3S2uMPz1TZbBVVOgmn/afk7rTlkEQvzQJfX2N0V6pMdgAYQKBHRQTY7MC1J+ohyNFB6CmrJSKPikskp6Jz94QM5zrVcUg6AmN3nYIt5hiQ7MTNmi51gP35yZg9LIe7s/bYXSwCX6fH4cb11thbXVRkcx9PVBf2xCezWKMNXGbNE6EuBw9gQ0jhCF/vwRhrNslQdR+vk8xyNrqovRsfzvTfyxLYp3uksRH7AiDXWH2Djh38tNN1dxwAjrOn92gmYk70NuuC+yjgq8X790TDsKLXEJesTk9uyMFYcHbb0HdxwWSqg+oA/uh+kJbBsI/DlnSflgYMfCtHMlWDILzoWggTSerJJW/u3PDy39j/DKwry3KowbCcKRDEQTOUFmO/BUPSEvDMdCfOQ51hz6A/s4WCWKgWxcAuTXUB6Z2I/R2dwSEx3jecc8GzJ0haSvEAMGJZjyz5jBjHO4Xo+X3SCCGs7Vw8cxxaD5VLYHc6GkNgHQZW6FrcAS6ro/A6NwSmAZvw6UrZug0XIB702MwYu6VtkIsEJ7AL3Ou52WD4NohXhB/V8Lj4G4WDIIA134Yh690HWCxO6RjPB9v12KlVOzJoZJ244mRaCDBHrl6ywYdfd/K9oiVE0tlg7A8qaYFcnPgChjON0J7a3NAeDzUb5IFwvJEqxhkZmEZ5hdXwO5UDkIja7FKQXDVhj/2rT0ENIRRChKcmaQM1maImMGEZHQtf7AvenwSzN2FZcUgwd0H46Vz4PuIGUxISrDLSL9yupY/g/XfHodzLZfDMpiWdvr1MvkvO6d7yNTsVMIgoR6JlsGEWCM7T/6UvQResb633cvk+nxMLniZ92FqbpoaSKwMJtCeonit6sMI4Zfzbm9UkI/UOVFBaorzqWUtG0fkr9VXflZneRm195FH9j0M9Ujem2/A0f3qTfVZSQG0NZ6Oqa/1TSAuzUvbtsbTULx3dwQQkfsO4AnZIBKMLS/Ty6grZmeGT+HDFn7MDVtYJUNHghZW63IfVCVq+CVYjoyHLnVxWUobwny1O3ypy5FJKktdNKwA/lc8Cys+HCsvpSKp+FDbEFZ8YBzLr6hoGk4PYkwdkiKGI0dVtG2rC3QML7b4rHnZXkbt8lnViVUXo5RMdVsBYQLYhgASyFhu/NVFOZ7BCmBwzFATJ/qS0p1iGVYAMaNQjIcJ6oEtq+7ldJfggKUcAn/rPkgtxSotbqPhSzC85x2WI50MRx7E8fUf4NwJa1WKR2yaxe1oMWT/zfUc/qeI3vL/Gfpo35OD15L+R46c4vamN6csZSlLmSoJ9i+f4EHRSnGHKgAAAABJRU5ErkJggg==">                </div>
+                 <h2>coding</h2>
+                 <p>Coding is a list of step-by-step instructions that get computers to do what you want them to do. </p>
+
+            </div>
+        </div>
+    </div>
+   </section>
+      <!-- end service section--> 
+
+          <!-- project section--> 
+
+          <section id="projects">
+            <div class="projects container">
+                <div class="projects-header">
+                    <h1 class="section-title">Recent <span>Projects</span></h1>
+                </div>
+                <div class="all-projects">
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 1</h1>
+                            <h2>Shoping online</h2>
+                            <p>This is a website that help people to buy food and drinks online and gets free delivery 
+                                accusamus possimus quia necessitatibus consectetur illo cupiditate tempora 
+                                ipsam deleniti quod, eligendi provident neque dolorum sint. Molestiae, modi.</p>
+                        </div>
+
+                        <div class="project-img">
+                            <img src="Capturee.PNG" alt="">
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 2</h1>
+                            <h2>Tech Savy Youth Company</h2>
+                            <p>Tech savy youth helps youth to put their talents on test especialy in technology
+                                accusamus possimus quia necessitatibus consectetur illo cupiditate tempora 
+                                ipsam deleniti quod, eligendi provident neque dolorum sint. Molestiae, modi.</p>
+                        </div>
+
+                        <div class="project-img">
+                            <img src="hm.PNG" alt="">
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 3</h1>
+                            <h2>Tech Savy Youth Dashboard</h2>
+                            <p>This is tech savy youth's dashboard where the admin controls actions made on the website
+                                accusamus possimus quia necessitatibus consectetur illo cupiditate tempora 
+                                ipsam deleniti quod, eligendi provident neque dolorum sint. Molestiae, modi.</p>
+                        </div>
+
+                        <div class="project-img">
+                            <img src="acc.PNG" alt="">
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 4</h1>
+                            <h2>Store Management System</h2>
+                            <p>Managing storage is one of the hardest thing to take care of especialy on a paper 
+                                based system. which is why i designed this system to reastuarents manage their stores easy 
+                                ipsam deleniti quod, eligendi provident neque dolorum sint. Molestiae, modi.</p>
+                        </div>
+
+                        <div class="project-img">
+                            <img src="gre.PNG" alt="">
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 5</h1>
+                            <h2>Group of helping those in need of charity</h2>
+                            <p>"WE HELP" is a group of people that help other in need of help especialy refugees and orphans 
+                                accusamus possimus quia necessitatibus consectetur illo cupiditate tempora 
+                                ipsam deleniti quod, eligendi provident neque dolorum sint. Molestiae, modi.</p>
+                        </div>
+
+                        <div class="project-img">
+                            <img src="gui.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+    <!-- end project section--> 
+<!--experience-->
+<section  id="experience">
+    <div class="experience container">
+        <div class="experience-top">
+            <h1 class="section-title">Exper<span>i</span>ence</h1>
+            <p>As a fresh high school graduate i can't say that
+                i have an experience as of an expert. But as mentioned,
+                i had internships at K LAB and Biryogo socio-Medical Center know as "kwa Nyiranuma"
+               </p>
+        </div>
+        <div class="experience-bottom">
+   
+
+            <div class="experience-item">
+                <p>Sept - Oct 2019</p>
+                 <h2>Medical Center</h2>
+                 <i>Intern</i>
+                 <p>● Recorded patients’ information in the database</p>
+                 <p>● Assisted in modifying patients’ data in the database</p>
+                 <p>●Learned how to create database and its entities</p>
+
+            </div>
+
+       
+            <div class="experience-item">
+                <p>April - May 2022</p>
+                 <h2>K LAB</h2>
+                 <i>Intern</i>
+                 <p>● Assisted in training my fellow interns at klab in our intership</p>
+                 <p>● Created web applications and hosting them</p>
+                 <p>● Assisted in training of word-press at Maison de jaines kimisagara</p>
+
+            </div>
+        </div>
+    </div>
+   </section>
+<!--end experience-->
+
+        <!-- about section--> 
+        <section id="about">
+        <div class="about">
+            <div class="about container">
+                <div class="col-left">
+                    <div class="about-img">
+                        <img src="meee.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h1 class="section-title">About <span>Me</span></h1>
+                    <h2>Front End Developer</h2>
+                    <p>My name is MUGENI Raisa , i'm a junior web designer
+                        and developer from Kigali. I love interaction design,
+                        cognition science exploring and swimming</p>
+
+                        <a href="Raissa.pdf" class="cta" download target="_blank">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- end about section--> 
+
+
+              <!-- contact section--> 
+              <section id="contact">
+                <div class="contact container">
+                    <div><h1 class="section-title">Contact <span>Info</span></h1></div>
+                    <div class="contact-items">
+                      <div class="contact-item">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/bubbles/50/null/phone--v1.png"/>
+                        </div>
+                        <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>0782217025</h2>
+                        <h2>0788649225</h2>
+                        </div>
+                      </div>
+
+                      <div class="contact-item">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/bubbles/50/null/apple-mail.png"/>
+                        </div>
+                        <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>mugenir7@gmail.com</h2>
+                        <h2>mugeniraissa7@gmail.com</h2>
+                        </div>
+                      </div>
+
+                      <div class="contact-item">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/bubbles/50/null/order-delivered.png"/>
+                        </div>
+                        <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Kigali</h2>
+                        <h2>Nyamirambo</h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </section>
+                <!-- end contact section--> 
+
+
+                  <!-- footer section-->
+                  <section id="footer">
+                    <div class="footer">
+                        <div class="footer container">
+                            <div class="brand"><h1> <span>M</span>UGENI <span>R</span>aissa</h1></div>
+                            <h2>Your complete solution</h2>
+                            <div class="social-icon">
+                                <div class="social-item">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFK0lEQVR4nO2Z7U+bVRTAO9/+AP0C+H3qJ2HxgxogMX4Y5d0BsxBBAm4DVhJaxkt5sR2OyXQmfmC6jU24t9nMMFl8GxMLkn1ZpmtjMqcCyu5THbpNKDQy4577sGPOBWrTF9o+z9NtH3qSkybtfc69v557zr3nPAZDSlKSkpQ8CLI0kb7N70qzLrkysu7pxAD2h4ANP83ZyCuKRM2Kl3YIlagZv8PfcEwsO8uu9HMIsexK5/6JdFh2pctL4xmZyV28+9ij/BopURgd5YwuKBKFzRTHcEbOcK+zGJ+NZtc/kdaKEAF1pVmTA3B19DFFIs1cor/FWnxUKIl60VuRgJZcGVnoiQ2P+CaffFZ3CNnrzOES/UktQLiXyI+yl2SHwYxnZPpdaRbdIQBgi8JIN2dE0QsiCIYrjNpwDl0XHQ4x+jBn5ITeABGAhnCu4Ll92WWFvtwyvy+nokAjBGzBCZINofyfEGiwZxAAQRZzd+THvWj/y6VPLGSXWZafr3h84zvcTqGT3Z75CFwjHXDioBmG+tUpPjtBOmBl+mQ4ECOdmv79xdwKqy+3HBAmENghMTE7dRhqS4ugpH4/GC3DkNdKVSk+W1LvgNfyt8PsN++FxYws0RdVg6AnlnLKW/ATU2xodkJPIITRPgZG+3l41TwAdWZHQrrLeghspzxQ/+ElMPZfAOObY1BbWgj/zJ4My2abnTVxC54ToS7H7SQ8YT8P+5qtcHN+GlYVn2r94vIvAqa4zgFfj9gC86zOfy5UYaRJ+4kd4bA71tcotoRp74BmiA0VnrEMw9G+xjAQLhFJk1c4o6WRMsqgvUHs79f3dOsCgWo5OiVsou2IWUwihRpAyBktIDfmZ8DW3gtNLQ5oaOmDnn2dUceirbzNQU6rgsAbKmfkLy0gba09YOybXAvm/gvQ1r5fvUcYXYjn1hwOwsgz0Q6reEFqG3oEQL31HWiz9cO7Bw5GHbu768imIKhwzflUwiDr9YQmEPwdQd6yH4gZI7G2loJe8TqLdUm78YLc/vsPqKmohh2dTgFS1dQPNW+0Q6+1NSrInt7jMUEUie5NHIQ5u9SCrPivw87KJjB2f7p+2H0pxg/YHVFBmg+fjQ3CqE01yOqfY7C6+C0o3lNxgyjyAkyeOwvVu7sESPWuLhj/7BP4XbqiaWspqkCw3sYAW/0XUASMyhiJ57yJC0RSsbU2gv3uChMw6Jn7DcLVBLse6VdvEFCTfmWP6Tn5Z/uK8uvgAwHCJXIz4RL4jnvnNtlTybmnErinCpS5I6pAasorxZUdP3UAOZ24N9ym1jWIdZ3uS/qlMTaIM/Fa/c53pizZY5IRQvZU3VXmBpN6jb9xfRpM5kNh1/ggb0gAU48kDCJgvq/KlD0mC58ZeBuNrVx8KWAYa2wsT/McX4nCCheiBQJtoK3iOge4iC3S+dFo0Cr4TyiMXAk2jI0CrLGxPMUFYKmLVxA1ip5AG2irOn+7KKNDIK7qUuqiYAdQNM+CJsBGAdbY+C9qbT4U1TkExGyk5gMjLxj0FLwehLocGwVYY3/gaID3u+pVKT6L2ynME5LQdoPech8adMe5u6pQ9pj83G0qSEbLdOheQADO5TYVCJDLlfF3FxNsYneGxow+AIQnZTttJtgBxIyiGwgjP+ge2PEKpkVsnuGBpdoL+CyjjbqlWLXN7UAjz0uLuEQ+5hK9FXvx9BbenbBXpfrE1rO5HS2GYI5sXXunSJoCL0PRc/jOcI5sTfqLnESa2zEHpyQlKUmJIQnyH/IbNk7mj9+bAAAAAElFTkSuQmCC">
+                                </div>
+
+                                <div class="social-item">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcElEQVR4nO2Z3U9bdRjHmVP/AL0BvHfzSli80eiVsAsHU2JiCl67CdtQYNCWyigL9AVWSYCJMJzThSmNdNLJ+XWWbTHRDTa6ZRNwJrpB7TmV9tdTGl8SWuAxz3Gtpe/npcSLPsmTNOf09/Lp9/m9PE+LigpWsIIV7P9gwZmSfSFncXPQWVq+owMDdD7G+h17WcrUsNRxlA0wasHxMz7zO/bid7L1s+YsmUaINWdJJDRTAmvOknDwcmlZnic//wTrJ6+zAWLlKEO5AIGMThnKUmbC4ycHsW26fkMzxS0IEXNncXNeABbA+iRLmWMcZdxZJ58eagXVSgUUdJaWoxJRRfgrzzyvOATLk1fYAFmSDJDgbIAssjzzchLM5dKykLO4SXEIANjFUUbHUrKhFEQMhjIRlhItjqHopJMhrLu5ABlTGiBFuJ3BseLHNtv2V5kmK0KmyYoDSihxJu8QgWioMZ/HK4MACGL4quI1WSAYTomDLXN2sH3ZDSP9avi4XyPJse3FiR54yE4lw/CMpkjxhZ2wJubmzsIR1Ztw6uQQnBtzwPlPr0hybNvXNQDv1FTD7OzZpDXjCTheUm6LTdidUAmEsNsX4ZJ9CQZMI2Dpsojy073DcMvFwvfXPfDtjBumphaEPle89qTdLNNZk7saeE4kSI7hhEoghLFNA6vsfdjc4CW7e2VVgOnTD4JtwhAbJ7wRAv6PO8DxTIMsCPwlUh12w6dahZAYMI7Ihog6KnNuzAEf9bXGxkGI1eA1YClZlqUK659+I9WOMmQ+LsS3+QOjIhDoV68uCH1i36nG9PKOKukglJkQC4IKmbSd0HZYA8cPtW9zfGZo6wD3r3eT2mFf5zOAcJS5IAkCb6gcJX4xIAihrteBqXcOei23k9xo+gE6dF9D27ta8HE/i1KEowzN5dacZBz95rl0h1U6EJNWnxYCXV3fDoM93QKMqV2/re0np8czgwQIePxkj2gQzB3EgmDoRCdt7rsJ2mPd8KHeIHh7Yw90tI6ApkEHRvMN4buiQisggBxUZNvNBqJu0MdAcOLcylLsHbu8KDyLqdOwXZHPRqxZQbx+ckQCCGnHxv7QDVj7axG8/GVRIKhC4oK2dKYHmZr8LisI3owlg2xuhQENYeSDGNKC5BJarDQQx1Fs/Pc6B5tb6+APXRcdWhhO0XeelQXQNcoD8UoLLfmLHWH+W+wG4Vn0/Y4tdk7C9mtQn8i4/UYdv2PUdEoB2SMaJOxSvRB80PunjxvPGcT9y13hsMsEg+9aD2vhtwf3RIGwAWZVdAq8Pv/WvrCrNhJx1ULk9tvg817I+YqCJzYedhg6uvd6trlwRVGfSILI2xUlPK9qESAeefChJe+XxmwgXp6Iz9XXb6rKwy5VGCHCrrotn3c8r9f43z33YcA8mnSNj9t2lwGuPS4aRIC5U1cWdqmaqHvYmNgx5tiYntov/SQkVjgRORDYB/bVpx+Ei1ZjsiI8U18k1/CXYCm5F98xFgowx8b0FCeAqW6PukuSoxLYB/Z1qKZaSKO3q8EsKJLqomEFEAsB8QNgoQBzbPwV5RYfevUDAsRsyuIDeVERiBgMJdpEybFQgDn2kLkF+k82SnJsi+GUqAT3b+GhrUhp2+kCHUfJaGS+rirsUoUi86oDCsNYd+8IDCWjOBYCCCC3auVVF1PDwC6sACauGcWK2IE8hFMmwwog7igKQvyo+MIWVffimQY8sKQDkGU8JxTbYnMxg+3Vp42TlU0W6/6n4p/jJDw8U81R8gVLiS+Hyfvw7oS1Ksknthwz2SqbTbZKQJhMa8jjm34W/1MU1Hr0Zyh+xnwC3+X9j5xshkqYJiveT1SkYAUrWMGKdsr+ATbqS5GhBju1AAAAAElFTkSuQmCC">
+                                </div>
+
+                                <div class="social-item">
+                                    <img src="data:image/png;base64,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">
+                                </div>
+
+                                <div class="social-item">
+                                    <img src="data:image/png;base64,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">
+                                </div>
+                            </div>
+                            <p>Copyright &copy; 2022</p>
+                        </div>
+                    </div>
+                  </section>
+                    <!-- end footer section-->  
+                    <script src="app.js"></script>
+
+                    <!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Got a job for me?</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Send me a message</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea name="" placeholder="Talk to me" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+    function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
